@@ -1,0 +1,41 @@
+{
+  "displayName": "Coinhive",
+  "name": "coinhive",
+  "platform": "web",
+  "version": "1.0.0",
+  "description": "Monitize visits using your user's computing power rather than obtrusive ads.",
+  "author": {
+    "name": "Danny Yan"
+  },
+  "viewBasePath": "src/view/",
+  "configuration": {
+    "viewPath": "configuration/configuration.html",
+    "schema": {
+      "$schema": "http://json-schema.org/draft-04/schema#",
+      "type": "object",
+      "properties": {}
+    }
+  },
+  "actions": [
+    {
+      "displayName": "Start Mining",
+      "name": "start-mining",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/actions/startMining.js"
+    },
+    {
+      "displayName": "Stop Mining",
+      "name": "stop-mining",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/actions/stopMining.js"
+    }
+  ]
+}
