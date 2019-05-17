@@ -1,0 +1,56 @@
+{
+  "displayName": "Salesforce",
+  "name": "salesforce",
+  "platform": "web",
+  "version": "1.0.0",
+  "description": "Send salesforce pixel.",
+  "author": {
+    "name": "Danny Yan"
+  },
+  "viewBasePath": "src/view/",
+  "configuration": {
+    "viewPath": "configuration/configuration.html",
+    "schema": {
+      "$schema": "http://json-schema.org/draft-04/schema#",
+      "type": "object",
+      "properties": {}
+    }
+  },
+  "actions": [
+    {
+      "displayName": "Salesforce PDP",
+      "name": "salesforce-pdp",
+      "viewPath": "actions/salesforcePDP.html",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {
+          "pdp": {
+            "type":"object",
+            "properties": {
+              "category": {
+                "type": "string"
+              },
+              "pageName": {
+                "type": "string"
+              },
+              "prodID": {
+                "type": "string"
+              },
+              "prodPrice": {
+                "type": "string"
+              },
+              "prodStatus": {
+                "type": "string"
+              },
+              "prodInv": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "libPath": "src/lib/actions/salesforcePDP.js"
+    }
+  ]
+}

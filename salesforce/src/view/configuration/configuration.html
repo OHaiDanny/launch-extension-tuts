@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Extension Configuration</title>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    
+    <label>
+      Site Key
+      <input id="siteKey" minLength="32" maxLength="256" />
+    </label>
+
+    <script src="https://assets.adobedtm.com/activation/reactor/extensionbridge/extensionbridge.min.js"></script>
+    <script>
+
+      var siteKeyInput = document.querySelector("#siteKey");
+
+      window.extensionBridge.register({
+        init: function(info) {
+          if (info.settings) {
+            siteKeyInput.value = info.settings.siteKey;
+          }
+        },
+
+        getSettings: function() {
+          return {
+            siteKey: siteKeyInput.value
+          };
+        },
+
+        validate: function() {
+          return siteKeyInput.checkValidity();
+        }
+      });
+    </script>
+  </body>
+</html>

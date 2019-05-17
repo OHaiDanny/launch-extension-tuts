@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Salesforce PDP</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+
+  <form>
+    <!-- TODO: Create a component for these labels -->
+    <label>
+      Category
+      <input id="category" minLength="32" maxLength="32" />
+      <button id="category-btn">
+        <svg viewBox="0 0 36 36" focusable="false" aria-hidden="true" role="img">
+          <ellipse cx="18" cy="7" rx="16" ry="5"></ellipse>
+          <path
+            d="M18 24.275c-4.936 0-14.212-1.169-16-4V29c0 2.761 7.163 5 16 5s16-2.239 16-5v-8.73c-2.447 3.095-11.064 4.005-16 4.005z">
+          </path>
+          <path
+            d="M18 14.275c-4.936 0-14.212-1.169-16-4V17c0 2.761 7.163 5 16 5s16-2.239 16-5v-6.73c-2.447 3.095-11.064 4.005-16 4.005z">
+          </path>
+        </svg>
+      </button>
+    </label>
+    <label>
+      Product Name
+      <input id="prodName" minLength="32" maxLength="32" />
+      <button id="prodName-btn">
+        <svg viewBox="0 0 36 36" focusable="false" aria-hidden="true" role="img">
+          <ellipse cx="18" cy="7" rx="16" ry="5"></ellipse>
+          <path
+            d="M18 24.275c-4.936 0-14.212-1.169-16-4V29c0 2.761 7.163 5 16 5s16-2.239 16-5v-8.73c-2.447 3.095-11.064 4.005-16 4.005z">
+          </path>
+          <path
+            d="M18 14.275c-4.936 0-14.212-1.169-16-4V17c0 2.761 7.163 5 16 5s16-2.239 16-5v-6.73c-2.447 3.095-11.064 4.005-16 4.005z">
+          </path>
+        </svg>
+      </button>
+    </label>
+    <label>
+      Product ID
+      <input id="prodID" minLength="32" maxLength="32" />
+      <button id="prodID-btn">
+        <svg viewBox="0 0 36 36" focusable="false" aria-hidden="true" role="img">
+          <ellipse cx="18" cy="7" rx="16" ry="5"></ellipse>
+          <path
+            d="M18 24.275c-4.936 0-14.212-1.169-16-4V29c0 2.761 7.163 5 16 5s16-2.239 16-5v-8.73c-2.447 3.095-11.064 4.005-16 4.005z">
+          </path>
+          <path
+            d="M18 14.275c-4.936 0-14.212-1.169-16-4V17c0 2.761 7.163 5 16 5s16-2.239 16-5v-6.73c-2.447 3.095-11.064 4.005-16 4.005z">
+          </path>
+        </svg>
+      </button>
+    </label>
+    <label>
+      Product Price
+      <input id="prodPrice" minLength="32" maxLength="32" />
+      <button id="prodPrice-btn">
+        <svg viewBox="0 0 36 36" focusable="false" aria-hidden="true" role="img">
+          <ellipse cx="18" cy="7" rx="16" ry="5"></ellipse>
+          <path
+            d="M18 24.275c-4.936 0-14.212-1.169-16-4V29c0 2.761 7.163 5 16 5s16-2.239 16-5v-8.73c-2.447 3.095-11.064 4.005-16 4.005z">
+          </path>
+          <path
+            d="M18 14.275c-4.936 0-14.212-1.169-16-4V17c0 2.761 7.163 5 16 5s16-2.239 16-5v-6.73c-2.447 3.095-11.064 4.005-16 4.005z">
+          </path>
+        </svg>
+      </button>
+    </label>
+    <label>
+      Product Status
+      <input id="prodStatus" minLength="32" maxLength="32" />
+      <button id="prodStatus-btn">
+        <svg viewBox="0 0 36 36" focusable="false" aria-hidden="true" role="img">
+          <ellipse cx="18" cy="7" rx="16" ry="5"></ellipse>
+          <path
+            d="M18 24.275c-4.936 0-14.212-1.169-16-4V29c0 2.761 7.163 5 16 5s16-2.239 16-5v-8.73c-2.447 3.095-11.064 4.005-16 4.005z">
+          </path>
+          <path
+            d="M18 14.275c-4.936 0-14.212-1.169-16-4V17c0 2.761 7.163 5 16 5s16-2.239 16-5v-6.73c-2.447 3.095-11.064 4.005-16 4.005z">
+          </path>
+        </svg>
+      </button>
+    </label>
+    <label>
+      Product Inventory
+      <input id="prodInv" minLength="32" maxLength="32" />
+      <button id="prodInv-btn">
+        <svg viewBox="0 0 36 36" focusable="false" aria-hidden="true" role="img">
+          <ellipse cx="18" cy="7" rx="16" ry="5"></ellipse>
+          <path
+            d="M18 24.275c-4.936 0-14.212-1.169-16-4V29c0 2.761 7.163 5 16 5s16-2.239 16-5v-8.73c-2.447 3.095-11.064 4.005-16 4.005z">
+          </path>
+          <path
+            d="M18 14.275c-4.936 0-14.212-1.169-16-4V17c0 2.761 7.163 5 16 5s16-2.239 16-5v-6.73c-2.447 3.095-11.064 4.005-16 4.005z">
+          </path>
+        </svg>
+      </button>
+    </label>
+  </form>
+
+
+  <script src="https://assets.adobedtm.com/activation/reactor/extensionbridge/extensionbridge.min.js"></script>
+  <script>
+    var categoryButton = document.getElementById("category-btn");
+    var prodIDButton = document.getElementById("prodID-btn");
+    var prodNameButton = document.getElementById("prodName-btn");
+    var prodPriceButton = document.getElementById("prodPrice-btn");
+    var prodStatusButton = document.getElementById("prodStatus-btn");
+    var prodInvButton = document.getElementById("prodInv-btn");
+
+    var getDataElement = function (inputID) {
+      console.log('fired');
+      window.extensionBridge.openDataElementSelector().then(function (dataElement) {
+        document.getElementById(inputID).value = dataElement;
+      });
+    }
+
+    categoryButton.onclick = function() { getDataElement("category") }
+    prodIDButton.onclick = function() { getDataElement("prodID") }
+    prodNameButton.onclick = function() { getDataElement("prodName") }
+    prodPriceButton.onclick = function() { getDataElement("prodPrice") }
+    prodStatusButton.onclick = function() { getDataElement("prodStatus") }
+    prodInvButton.onclick = function() { getDataElement("prodInv") }
+
+    window.extensionBridge.register({
+      init: function (info) {
+        if (info.settings && info.settings.pdp) {
+          document.getElementById('category').value = (info.settings.pdp.category) || '';
+          document.getElementById('prodName').value = (info.settings.pdp.pageName) || '';
+          document.getElementById('prodID').value = (info.settings.pdp.prodID) || '';
+          document.getElementById('prodName').value = (info.settings.pdp.prodName) || '';
+          document.getElementById('prodPrice').value = (info.settings.pdp.prodPrice) || '';
+          document.getElementById('prodStatus').value = (info.settings.pdp.prodStatus) || '';
+          document.getElementById('prodInv').value = (info.settings.pdp.prodInv) || '';
+        }
+      },
+
+      getSettings: function () {
+        return {
+          pdp: {
+            category: document.getElementById('category').value,
+            pageName: document.getElementById('prodName').value,
+            prodID: document.getElementById('prodID').value,
+            prodName: document.getElementById('prodName').value,
+            prodPrice: document.getElementById('prodPrice').value,
+            prodStatus: document.getElementById('prodStatus').value,
+            prodInv: document.getElementById('prodInv').value
+          }
+        }
+      },
+
+      validate: function () {
+        return true;
+      }
+    });
+  </script>
+</body>
+</html>
