@@ -38,10 +38,10 @@ A TODO task that I'm trying to figure out is if there is a way to set a watch so
 Example Extensions
 There are example extensions on Github you can review or use as starter projects:
 
-Hello World example extension - https://github.com/adobe/reactor-helloworld-extension
-Facebook example extension - https://github.com/Adobe-Marketing-Cloud-Activation/extension-facebookpixel
-Typekit example extension - https://github.com/jeffchasin/extension-fonts
-Pinterest example extension - https://github.com/jeffchasin/extension-pinterest
+* Hello World example extension - https://github.com/adobe/reactor-helloworld-extension
+* Facebook example extension - https://github.com/Adobe-Marketing-Cloud-Activation/extension-facebookpixel
+* Typekit example extension - https://github.com/jeffchasin/extension-fonts
+* Pinterest example extension - https://github.com/jeffchasin/extension-pinterest
 
 
 
