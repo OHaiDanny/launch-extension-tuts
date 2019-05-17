@@ -17,7 +17,7 @@ To create a new extension simply create a new folder by doing the following:
 ```
 mkdir <new folder name>
 cd <new folder name>
-npx @adobe/reactor-scaffolding
+npx @adobe/reactor-scaffold
 ```
 This will run the scaffolding to get you started with an Extension Wizard that will help you set up the file structure and folder needed to get started.
 
